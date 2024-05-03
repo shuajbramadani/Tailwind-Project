@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    
+    nav {
+        width: 100%;
+        button {
+            
+        display: none;
+            
+        }
+        .navbar {
+            display: none;
+        }
+        details {
+            display: block;
+            margin-top: -25px;
+            
+         
+            ul{
+                width: 500px;
+                height: 800px;
+                background-color: rgba(0, 0, 0, 0.786);
+                position: fixed;
+                left: -10%;
+            }
+     
+            
+        }
+    }
+}
+
+
+    details {
+        display: none;
+    }
+
+
+
