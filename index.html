@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tailwind Css</title>
+</head>
+
+<body>
+
+    <nav class="bg-stone-950 lg:px-28 md:px-16 max-[600px]:px-8  py-4 flex justify-between items-center">
+
+        <h1 class="text-stone-50 text-3xl "><span class="text-lime-300 font-semibold">Elite</span>Fin</h1>
+        <details>
+            <summary><img src="./Imgs/burgetbutton.svg" alt=""></summary>
+            <ul class="text-center pt-5 flex flex-col items-center space-y-10">
+                <li class="text-white">Features</li>
+                <li class="text-white">Pricing</li>
+                <li class="text-white">About Us</li>
+                <li class="text-white">Faq</li>
+                <li class="text-center w-1/2 bg-lime-300 hover:bg-lime-200  transition duration-200 ease-in-out rounded-full py-2 px-6 font-semibold">Try
+                    Now</li>
+            </ul>            
+          </details>
+
+        <div class="navbar">
+        <ul class="flex space-x-16 ">
+            <li class="text-white">Features</li>
+            <li class="text-white">Pricing</li>
+            <li class="text-white">About Us</li>
+            <li class="text-white">Faq</li>
+        </ul>
+    </div>
+        <button
+            class="bg-lime-300 hover:bg-lime-200  transition duration-200 ease-in-out	rounded-full py-2 px-6 font-semibold">Try
+            Now</button>
+        
+    </nav>
+
+    <!-- Main -->
+    <section class="bg-stone-950 lg:px-28 md:px-16 max-[600px]:px-8  py-10 grid lg:grid-cols-2 md:grid-cols-1  items-center bg-[url('./Imgs/backgorund.png')] bg-no-repeat	 bg-cover">
+
+        <div class="space-y-10 ">
+            <h1
+                class="text-stone-50 text-5xl w-10/12 font-bold bg-gradient-to-l from-red-500 to-purple-500 bg-clip-text text-transparent">
+                Personalise your Credit Card</h1>
+            <p class="text-stone-50 w-10/12">Make your credit card uniquely yours with our personalized options. Choose
+                a design that reflects your
+                style and personality, adding a touch
+                of individuality to your financial essentials. Elevate your everyday transactions with a card that
+                speaks volumes about you.</p>
+
+            <div class="space-x-3 space-y-3">
+                <button
+                    class="bg-lime-300 hover:bg-lime-200  transition duration-200 ease-in-out	rounded-[15px]  py-3 px-6 font-semibold">Get
+                    Started</button>
+                <button
+                    class="text-stone-50 bg-gray-600 bg-opacity-50 hover:bg-gray-800  transition duration-200 ease-in-out	rounded-[15px]  py-3 px-6 font-semibold">Join
+                    Now</button>
+                <button
+                    class="text-stone-50 bg-gray-600 bg-opacity-50 hover:bg-gray-800  transition duration-200 ease-in-out	rounded-full h-12 w-12 font-semibold"><i
+                        class="fa-solid fa-play"></i></button>
+            </div>
+
+        </div>
+
+        <div class="flex justify-center">
+            <img class="w-9/12" src="./Imgs/credit-cards.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- About Us -->
+
+    <section class="lg:px-28 md:px-16 max-[600px]:px-8 py-10">
+
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 ">
+
+            <div class=" space-y-7">
+                <h3 class="font-semibold text-gray-400">About Us</h3>
+
+                <h2 class=" text-4xl font-bold">Get to Know more<br> About EliteFin</h2>
+            </div>
+            <div class="">
+                <p class="w-11/12 mt-12">At our personalized credit card company, we turn the ordinary into
+                    extraordinary. Discover a world of customization where your financial identity meets your personal
+                    style. Unleash your uniqueness with every swipe, making your wallet as distinct as you are.</p>
+            </div>
+        </div>
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-1 gap-8 justify-items-center py-10 ">
+            <div
+                class="rounded-[20px]  shadow-lg bg-stone-950 w-5/6 h-64 text-center py-5 px-5 flex flex-col justify-center">
+                <h2
+                    class="text-6xl font-bold text-stone-50 bg-gradient-to-l from-red-500 to-purple-500 bg-clip-text text-transparent">
+                    100+ </h2>
+                <p class="text-stone-50 mt-7">Personalise card designs for your credit card</p>
+            </div>
+            <div class="rounded-[20px] bg-gray-100 w-5/6 h h-64 text-center py-5 px-5 flex flex-col justify-center">
+                <h2 class="text-6xl font-bold text-gray-300">137K </h2>
+
+                <p class="text-gray-400 mt-7">Carty users from all over the globe</p>
+            </div>
+            <div class="rounded-[20px] bg-gray-100 w-5/6 h-64 text-center py-5 px-5 flex flex-col justify-center">
+                <h2 class="text-6xl font-bold text-gray-300">274M </h2>
+                <p class="text-gray-400 mt-7">Carty revenue in 2022 in the first quarter</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Features  -->
+
+    <section class="lg:px-28 md:px-16 max-[600px]:px-8 py-10 grid lg:grid-cols-2 md:grid-cols-1 ">
+
+        <div class=" space-y-7 py-10">
+            <h3 class="font-semibold text-gray-400">Features</h3>
+
+            <h2 class=" text-4xl font-bold">Best features<br>provided by EliteFin </h2>
+
+            <p class="w-9/12 ">Best features provided by EliteFin
+                Indulge in the ultimate financial expression with our personalized credit cards. Enjoy cutting-edge
+                security features, exclusive rewards tailored to your lifestyle, and the freedom to showcase your
+                individuality through customizable designs. Elevate your banking experience with the best features,
+                designed with you in mind.</p>
+
+            <div class="butonat space-x-3">
+                <button
+                    class="text-stone-50 bg-stone-950 hover:text-stone-950 hover:bg-gray-300  transition duration-200 ease-in-out	rounded-[15px]  py-3 px-6 font-semibold">Get
+                    Started</button>
+                <button
+                    class="text-stone-950 hover:text-stone-50 hover:bg-stone-950  transition duration-200 ease-in-out	rounded-[15px]  py-3 px-6 font-semibold">Learn
+                    More</button>
+
+            </div>
+
+        </div>
+
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-14 justify-items-center py-10">
+            <div
+                class="rounded-[20px]  shadow-lg bg-stone-950 w-full		 h-64 text-center py-5 px-5 flex flex-col justify-center">
+                <h2 class="text-stone-50 text-lg font-bold mb-5">Personalisation</h2>
+                <a
+                    class="text-6xl font-bold text-stone-50 bg-gradient-to-l from-red-500 to-purple-500 bg-clip-text text-transparent"><i
+                        class="fa-regular fa-star"></i></a>
+                <p class="text-stone-50 mt-5">where your financial tools become a reflection of your unique style,</p>
+            </div>
+            <div class="rounded-[20px] bg-gray-100 w-full		 h-64 text-center py-5 px-5 flex flex-col justify-center">
+                <h2 class="text-gray-300 text-lg font-bold mb-5">Protection</h2>
+
+                <a class="text-6xl font-bold text-gray-300"><i class="fa-solid fa-shield-halved"></i></a>
+
+                <p class="text-gray-400 mt-5">Security that's as steadfast as your dreams - trust us for unmatched
+                    protection.</p>
+            </div>
+            <div class="rounded-[20px] bg-gray-100 w-full	 h-64 text-center py-5 px-5 flex flex-col justify-center">
+                <h2 class="text-gray-300 text-lg font-bold mb-5">Cash back offer</h2>
+
+                <a class="text-6xl font-bold text-gray-300"><i class="fa-solid fa-money-bill"></i></a>
+                <p class="text-gray-400 mt-5">Shop smart, earn back. Your purchases, your cash.</p>
+            </div>
+            <div class="rounded-[20px] bg-gray-100 w-full	 h-64 text-center py-5 px-5 flex flex-col justify-center">
+                <h2 class="text-gray-300 text-lg font-bold mb-5">Fast delivery</h2>
+
+                <a class="text-6xl font-bold text-gray-300"><i class="fa-solid fa-box"></i></a>
+                <p class="text-gray-400 mt-5">Swift delivery, because your time matters.</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- EliteFin Try it now -->
+
+    <section class="bg-stone-950  rounded-[80px] lg:px-28 md:px-16 max-[600px]:px-8 py-10 grid lg:grid-cols-2 ">
+        <div class="space-y-7 mt-24 md:mt-8">
+            <h2 class="text-stone-50 text-5xl font-bold">Meet your banking Future<br> starting from<br>
+                now with EliteFin</h2>
+
+            <button
+                class="bg-lime-300 hover:bg-lime-200  transition duration-200 ease-in-out	rounded-[15px]  py-3 px-6 font-semibold">Try
+                it Now</button>
+
+        </div>
+
+        <img style="margin-bottom: -39px;" src="./Imgs/holding cc.png" alt="">
+
+    </section>
+
+    <!-- Partners -->
+
+    <section class="lg:px-28 md:px-16 max-[600px]:px-8 py-10">
+
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 ">
+
+            <div class=" space-y-7">
+                <h3 class="font-semibold text-gray-400">Partners</h3>
+
+                <h2 class=" text-4xl font-bold">Meet our most<br>trusted partners</h2>
+            </div>
+            <div class="">
+                <p class="w-11/12 mt-12">Discover excellence through collaboration. Meet our most trusted partners,
+                    fostering a synergy of quality, innovation, and reliability. Together, we elevate your experience to
+                    new heights.</p>
+            </div>
+        </div>
+
+        <div class="grid lg:grid-cols-5 md:grid-cols-1 gap-8 justify-items-center py-10 ">
+            <div
+                class="rounded-[20px] bg-gray-100 w-full h-full text-center py-5 px-5 flex flex-col justify-center items-center ">
+                <img src="./Imgs/gpay.png" alt="" width="150px">
+            </div>
+            <div
+                class="rounded-[20px] bg-gray-100 w-full h-full text-center py-5 px-5 flex flex-col justify-center items-center ">
+                <img src="./Imgs/paypal.png" alt="" width="150px">
+
+            </div>
+            <div
+                class="rounded-[20px] bg-gray-100 w-full h-full text-center py-5 px-5 flex flex-col justify-center items-center ">
+                <img src="./Imgs/paytm.png" alt="" width="150px">
+
+            </div>
+            <div
+                class="rounded-[20px] bg-gray-100 w-full h-full text-center py-5 px-5 flex flex-col justify-center items-center ">
+                <img src="./Imgs/applepay.png" alt="" width="150px">
+
+            </div>
+            <div
+                class="rounded-[20px] bg-gray-100 w-full h-full text-center py-5 px-5 flex flex-col justify-center items-center ">
+                <img src="./Imgs/visa.png" alt="" width="150px">
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Video Player -->
+    <section class=" lg:px-28 md:px-16 max-[600px]:px-8 py-10 flex flex-col items-center">
+
+        <div class=" grid lg:grid-cols-2 md:grid-cols-1 ">
+
+            <div class=" space-y-7">
+                <h3 class="font-semibold text-gray-400">Tutorial</h3>
+
+                <h2 class=" text-4xl font-bold">Let's learn how<br>EliteFin work</h2>
+            </div>
+            <div class="">
+                <p class="w-11/12 mt-12">Dive into the seamless world of shopping with EliteFin! Join us on a
+                    journey to unravel how we works - simplifying your shopping experience in
+                    a click. Watch, learn, and elevate your online shopping game!</p>
+            </div>
+
+        </div>
+
+
+        <img class="mt-10" src="./Imgs/videoplayer.png" alt="">
+
+    </section>
+
+    <!-- Pre-Footer -->
+    <section class="bg-stone-950 lg:px-28 md:px-16 max-[600px]:px-8 pt-10 flex flex-col items-center" style="border-top-left-radius: 80px; border-top-right-radius: 80px;">
+        <h2 class="text-stone-50 text-5xl font-bold text-center mt-40">Connect your finances<br> with EliteFin</h2>
+
+        <button class="bg-lime-300 hover:bg-lime-200  transition duration-200 ease-in-out	rounded-[15px]  py-3 px-6 font-semibold mt-10 mb-32">Join EliteFin Now</button>
+        <h1 class="text-stone-50 text-3xl "><span class="text-lime-300 font-semibold">Elite</span>Fin</h1>
+    </section>
+
+    <footer class="bg-stone-950 lg:px-28 md:px-16 grid lg:grid-cols-3 justify-items-center items-center py-5" >
+        
+        <p class="text-gray-400">Terms & Agreements</p>
+
+        <p class="text-gray-400">@ 2024 EliteFin All Rights reserved</p>
+
+        <p class="text-gray-400">Privacy Policy</p>
+
+    </footer>
+
+</body>
+
+</html>
